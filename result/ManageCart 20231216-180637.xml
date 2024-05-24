@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ManageCart" project="AutoTestForColorMe" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="TestSuite.ManageCart" time="117.684" displayname="ManageCart" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]">
+    <testcase name="FUNC_04_01" classname="TestSuite.ManageCart" time="20.128" displayname="FUNC_04_01" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]/[test:FUNC_04_01(TestSuite.ManageCart)]"/>
+    <testcase name="FUNC_04_02" classname="TestSuite.ManageCart" time="41.527" displayname="FUNC_04_02" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]/[test:FUNC_04_02(TestSuite.ManageCart)]"/>
+    <testcase name="FUNC_04_03" classname="TestSuite.ManageCart" time="37.881" displayname="FUNC_04_03" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]/[test:FUNC_04_03(TestSuite.ManageCart)]"/>
+    <testcase name="FUNC_04_04" classname="TestSuite.ManageCart" time="9.664" displayname="FUNC_04_04" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]/[test:FUNC_04_04(TestSuite.ManageCart)]"/>
+    <testcase name="FUNC_04_05" classname="TestSuite.ManageCart" time="8.474" displayname="FUNC_04_05" uniqueid="[engine:junit-vintage]/[runner:TestSuite.ManageCart]/[test:FUNC_04_05(TestSuite.ManageCart)]"/>
+  </testsuite>
+</testrun>

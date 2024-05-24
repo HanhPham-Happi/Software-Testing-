@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Logout (1)" project="ColorMeTesting" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="TestCase.Logout" time="14.365" displayname="Logout" uniqueid="[engine:junit-vintage]/[runner:TestCase.Logout]">
+    <testcase name="FUNC_07_01" classname="TestCase.Logout" time="14.365" displayname="FUNC_07_01" uniqueid="[engine:junit-vintage]/[runner:TestCase.Logout]/[test:FUNC_07_01(TestCase.Logout)]"/>
+  </testsuite>
+</testrun>

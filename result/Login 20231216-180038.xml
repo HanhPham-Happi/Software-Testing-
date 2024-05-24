@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Login" project="AutoTestForColorMe" tests="12" started="12" failures="4" errors="0" ignored="0">
+  <testsuite name="TestSuite.Login" time="190.272" displayname="Login" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]">
+    <testcase name="FUNC_02_01" classname="TestSuite.Login" time="9.135" displayname="FUNC_02_01" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_01(TestSuite.Login)]">
+      <failure>
+        <expected>false</expected>
+        <actual>true</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;false&gt; but was: &lt;true&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertElementDisabled(CommonFunction.java:135)
+	at Interface.Interface_Login.login(Interface_Login.java:24)
+	at TestSuite.Login.FUNC_02_01(Login.java:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_02_02" classname="TestSuite.Login" time="10.316" displayname="FUNC_02_02" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_02(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_03" classname="TestSuite.Login" time="8.933" displayname="FUNC_02_03" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_03(TestSuite.Login)]">
+      <failure>
+        <expected>Vui lòng nhập Email theo đúng định dạng</expected>
+        <actual>Email hoặc Password không đúng</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Email theo đúng định dạng&gt; but was: &lt;Email hoặc Password không đúng&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_Login.login(Interface_Login.java:32)
+	at TestSuite.Login.FUNC_02_03(Login.java:46)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_02_04" classname="TestSuite.Login" time="9.828" displayname="FUNC_02_04" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_04(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_05" classname="TestSuite.Login" time="9.024" displayname="FUNC_02_05" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_05(TestSuite.Login)]">
+      <failure>
+        <expected>Vui lòng nhập Email theo đúng định dạng</expected>
+        <actual>Email hoặc Password không đúng</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Email theo đúng định dạng&gt; but was: &lt;Email hoặc Password không đúng&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_Login.login(Interface_Login.java:32)
+	at TestSuite.Login.FUNC_02_05(Login.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_02_06" classname="TestSuite.Login" time="9.307" displayname="FUNC_02_06" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_06(TestSuite.Login)]">
+      <failure>
+        <expected>Vui lòng nhập Email theo đúng định dạng</expected>
+        <actual>Email hoặc Password không đúng</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Email theo đúng định dạng&gt; but was: &lt;Email hoặc Password không đúng&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_Login.login(Interface_Login.java:32)
+	at TestSuite.Login.FUNC_02_06(Login.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_02_07" classname="TestSuite.Login" time="13.6" displayname="FUNC_02_07" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_07(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_08" classname="TestSuite.Login" time="24.962" displayname="FUNC_02_08" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_08(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_09" classname="TestSuite.Login" time="23.384" displayname="FUNC_02_09" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_09(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_10" classname="TestSuite.Login" time="53.173" displayname="FUNC_02_10" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_10(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_11" classname="TestSuite.Login" time="9.069" displayname="FUNC_02_11" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_11(TestSuite.Login)]"/>
+    <testcase name="FUNC_02_12" classname="TestSuite.Login" time="9.538" displayname="FUNC_02_12" uniqueid="[engine:junit-vintage]/[runner:TestSuite.Login]/[test:FUNC_02_12(TestSuite.Login)]"/>
+  </testsuite>
+</testrun>

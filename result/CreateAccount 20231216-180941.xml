@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CreateAccount" project="AutoTestForColorMe" tests="34" started="34" failures="15" errors="0" ignored="0">
+  <testsuite name="TestSuite.CreateAccount" time="512.895" displayname="CreateAccount" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]">
+    <testcase name="FUNC_01_01" classname="TestSuite.CreateAccount" time="15.104" displayname="FUNC_01_01" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_01(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_02" classname="TestSuite.CreateAccount" time="15.082" displayname="FUNC_01_02" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_02(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập họ và tên</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập họ và tên&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_02(CreateAccount.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_03" classname="TestSuite.CreateAccount" time="14.861" displayname="FUNC_01_03" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_03(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_04" classname="TestSuite.CreateAccount" time="15.314" displayname="FUNC_01_04" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_04(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_05" classname="TestSuite.CreateAccount" time="15.315" displayname="FUNC_01_05" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_05(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Họ và tên theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Họ và tên theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_05(CreateAccount.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_06" classname="TestSuite.CreateAccount" time="14.946" displayname="FUNC_01_06" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_06(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Họ và tên theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Họ và tên theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_06(CreateAccount.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_07" classname="TestSuite.CreateAccount" time="14.625" displayname="FUNC_01_07" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_07(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_08" classname="TestSuite.CreateAccount" time="15.044" displayname="FUNC_01_08" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_08(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_09" classname="TestSuite.CreateAccount" time="15.07" displayname="FUNC_01_09" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_09(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_10" classname="TestSuite.CreateAccount" time="14.99" displayname="FUNC_01_10" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_10(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Color Me đã gửi email xác nhận vào hòm thư " hoatest@gmail.com ". Bạn vui lòng kiểm tra email để hoàn thành đăng kí</expected>
+        <actual>Color Me đã gửi email xác nhận vào hòm thư "hoatest@gmail.com". Bạn vui lòng kiểm tra email để hoàn thành đăng kí</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Color Me đã gửi email xác nhận vào hòm thư " hoatest@gmail.com ". Bạn vui lòng kiểm tra email để hoàn thành đăng kí&gt; but was: &lt;Color Me đã gửi email xác nhận vào hòm thư "hoatest@gmail.com". Bạn vui lòng kiểm tra email để hoàn thành đăng kí&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:47)
+	at TestSuite.CreateAccount.FUNC_01_10(CreateAccount.java:114)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_11" classname="TestSuite.CreateAccount" time="15.091" displayname="FUNC_01_11" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_11(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_12" classname="TestSuite.CreateAccount" time="15.292" displayname="FUNC_01_12" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_12(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Email theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Email theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_12(CreateAccount.java:129)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_13" classname="TestSuite.CreateAccount" time="14.655" displayname="FUNC_01_13" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_13(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_14" classname="TestSuite.CreateAccount" time="15.184" displayname="FUNC_01_14" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_14(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_15" classname="TestSuite.CreateAccount" time="15.041" displayname="FUNC_01_15" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_15(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_16" classname="TestSuite.CreateAccount" time="15.099" displayname="FUNC_01_16" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_16(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập mật khẩu</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập mật khẩu&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_16(CreateAccount.java:157)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_17" classname="TestSuite.CreateAccount" time="14.995" displayname="FUNC_01_17" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_17(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_18" classname="TestSuite.CreateAccount" time="15.054" displayname="FUNC_01_18" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_18(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_19" classname="TestSuite.CreateAccount" time="15.365" displayname="FUNC_01_19" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_19(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_20" classname="TestSuite.CreateAccount" time="14.735" displayname="FUNC_01_20" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_20(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_21" classname="TestSuite.CreateAccount" time="14.856" displayname="FUNC_01_21" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_21(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập lại mật khẩu</expected>
+        <actual>Mật khẩu không trùng khớp</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập lại mật khẩu&gt; but was: &lt;Mật khẩu không trùng khớp&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_21(CreateAccount.java:192)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_22" classname="TestSuite.CreateAccount" time="14.897" displayname="FUNC_01_22" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_22(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập lại mật khẩu</expected>
+        <actual>Mật khẩu không trùng khớp</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập lại mật khẩu&gt; but was: &lt;Mật khẩu không trùng khớp&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_22(CreateAccount.java:199)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_23" classname="TestSuite.CreateAccount" time="15.058" displayname="FUNC_01_23" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_23(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_24" classname="TestSuite.CreateAccount" time="15.36" displayname="FUNC_01_24" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_24(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_25" classname="TestSuite.CreateAccount" time="14.864" displayname="FUNC_01_25" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_25(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập số điện thoại liên lạc</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập số điện thoại liên lạc&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_25(CreateAccount.java:220)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_26" classname="TestSuite.CreateAccount" time="14.709" displayname="FUNC_01_26" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_26(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_26(CreateAccount.java:227)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_27" classname="TestSuite.CreateAccount" time="15.124" displayname="FUNC_01_27" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_27(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_28" classname="TestSuite.CreateAccount" time="15.85" displayname="FUNC_01_28" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_28(TestSuite.CreateAccount)]"/>
+    <testcase name="FUNC_01_29" classname="TestSuite.CreateAccount" time="14.952" displayname="FUNC_01_29" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_29(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_29(CreateAccount.java:248)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_30" classname="TestSuite.CreateAccount" time="15.946" displayname="FUNC_01_30" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_30(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_30(CreateAccount.java:255)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_31" classname="TestSuite.CreateAccount" time="15.58" displayname="FUNC_01_31" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_31(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_31(CreateAccount.java:262)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_32" classname="TestSuite.CreateAccount" time="14.728" displayname="FUNC_01_32" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_32(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại theo đúng định dạng</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại theo đúng định dạng&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_32(CreateAccount.java:269)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_33" classname="TestSuite.CreateAccount" time="15.127" displayname="FUNC_01_33" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_33(TestSuite.CreateAccount)]">
+      <failure>
+        <expected>Vui lòng nhập Số điện thoại chưa được tạo tài khoản</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập Số điện thoại chưa được tạo tài khoản&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_CreateAccount.createAccount(Interface_CreateAccount.java:50)
+	at TestSuite.CreateAccount.FUNC_01_33(CreateAccount.java:276)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_01_34" classname="TestSuite.CreateAccount" time="14.97" displayname="FUNC_01_34" uniqueid="[engine:junit-vintage]/[runner:TestSuite.CreateAccount]/[test:FUNC_01_34(TestSuite.CreateAccount)]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UpdateProfile" project="ColorMeTesting" tests="30" started="30" failures="10" errors="0" ignored="0">
+  <testsuite name="TestCase.UpdateProfile" time="818.655" displayname="UpdateProfile" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]">
+    <testcase name="FUNC_06_01" classname="TestCase.UpdateProfile" time="23.614" displayname="FUNC_06_01" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_01(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập mô tả về bạn</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập mô tả về bạn&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_01(UpdateProfile.java:41)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_02" classname="TestCase.UpdateProfile" time="22.619" displayname="FUNC_06_02" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_02(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập mô tả về bạn</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập mô tả về bạn&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_02(UpdateProfile.java:46)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_03" classname="TestCase.UpdateProfile" time="22.627" displayname="FUNC_06_03" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_03(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_04" classname="TestCase.UpdateProfile" time="30.039" displayname="FUNC_06_04" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_04(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_05" classname="TestCase.UpdateProfile" time="22.758" displayname="FUNC_06_05" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_05(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_06" classname="TestCase.UpdateProfile" time="27.858" displayname="FUNC_06_06" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_06(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_07" classname="TestCase.UpdateProfile" time="23.025" displayname="FUNC_06_07" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_07(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập username riêng</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập username riêng&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_07(UpdateProfile.java:71)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_08" classname="TestCase.UpdateProfile" time="23.441" displayname="FUNC_06_08" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_08(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập username riêng</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập username riêng&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_08(UpdateProfile.java:76)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_09" classname="TestCase.UpdateProfile" time="23.04" displayname="FUNC_06_09" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_09(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_10" classname="TestCase.UpdateProfile" time="22.995" displayname="FUNC_06_10" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_10(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_11" classname="TestCase.UpdateProfile" time="23.011" displayname="FUNC_06_11" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_11(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_12" classname="TestCase.UpdateProfile" time="23.058" displayname="FUNC_06_12" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_12(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_13" classname="TestCase.UpdateProfile" time="23.235" displayname="FUNC_06_13" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_13(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập trường học</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập trường học&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_13(UpdateProfile.java:101)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_14" classname="TestCase.UpdateProfile" time="23.246" displayname="FUNC_06_14" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_14(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập trường học</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập trường học&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_14(UpdateProfile.java:106)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_15" classname="TestCase.UpdateProfile" time="22.965" displayname="FUNC_06_15" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_15(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_16" classname="TestCase.UpdateProfile" time="23.752" displayname="FUNC_06_16" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_16(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_17" classname="TestCase.UpdateProfile" time="23.063" displayname="FUNC_06_17" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_17(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_18" classname="TestCase.UpdateProfile" time="23.059" displayname="FUNC_06_18" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_18(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_19" classname="TestCase.UpdateProfile" time="23.296" displayname="FUNC_06_19" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_19(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập nơi làm việc</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập nơi làm việc&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_19(UpdateProfile.java:130)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_20" classname="TestCase.UpdateProfile" time="33.947" displayname="FUNC_06_20" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_20(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập nơi làm việc</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập nơi làm việc&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_20(UpdateProfile.java:135)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_21" classname="TestCase.UpdateProfile" time="32.997" displayname="FUNC_06_21" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_21(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_22" classname="TestCase.UpdateProfile" time="33.002" displayname="FUNC_06_22" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_22(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_23" classname="TestCase.UpdateProfile" time="31.998" displayname="FUNC_06_23" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_23(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_24" classname="TestCase.UpdateProfile" time="34.009" displayname="FUNC_06_24" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_24(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_25" classname="TestCase.UpdateProfile" time="32.994" displayname="FUNC_06_25" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_25(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập địa điểm</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập địa điểm&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_25(UpdateProfile.java:160)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_26" classname="TestCase.UpdateProfile" time="32.997" displayname="FUNC_06_26" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_26(TestCase.UpdateProfile)]">
+      <failure>
+        <expected>Vui lòng nhập địa điểm</expected>
+        <actual>Cập nhật thành công</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập địa điểm&gt; but was: &lt;Cập nhật thành công&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:94)
+	at Screen.UpdateProfileScreen.updateProfile(UpdateProfileScreen.java:43)
+	at TestCase.UpdateProfile.FUNC_06_26(UpdateProfile.java:165)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_06_27" classname="TestCase.UpdateProfile" time="33.998" displayname="FUNC_06_27" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_27(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_28" classname="TestCase.UpdateProfile" time="34.003" displayname="FUNC_06_28" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_28(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_29" classname="TestCase.UpdateProfile" time="33.997" displayname="FUNC_06_29" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_29(TestCase.UpdateProfile)]"/>
+    <testcase name="FUNC_06_30" classname="TestCase.UpdateProfile" time="34.001" displayname="FUNC_06_30" uniqueid="[engine:junit-vintage]/[runner:TestCase.UpdateProfile]/[test:FUNC_06_30(TestCase.UpdateProfile)]"/>
+  </testsuite>
+</testrun>

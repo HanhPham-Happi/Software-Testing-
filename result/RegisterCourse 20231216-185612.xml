@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RegisterCourse" project="AutoTestForColorMe" tests="26" started="26" failures="5" errors="10" ignored="1">
+  <testsuite name="TestSuite.RegisterCourse" time="588.998" displayname="RegisterCourse" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]">
+    <testcase name="FUNC_05_01" classname="TestSuite.RegisterCourse" time="11.611" displayname="FUNC_05_01" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_01(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_02" classname="TestSuite.RegisterCourse" time="11.481" displayname="FUNC_05_02" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_02(TestSuite.RegisterCourse)]">
+      <failure>
+        <expected>Vui lòng nhập email</expected>
+        <actual>Vui lòng nhập đúng email</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Vui lòng nhập email&gt; but was: &lt;Vui lòng nhập đúng email&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_02(RegisterCourse.java:56)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_05_03" classname="TestSuite.RegisterCourse" time="11.415" displayname="FUNC_05_03" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_03(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_04" classname="TestSuite.RegisterCourse" time="11.533" displayname="FUNC_05_04" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_04(TestSuite.RegisterCourse)]">
+      <failure>
+        <expected>Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_04(RegisterCourse.java:68)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_05_05" classname="TestSuite.RegisterCourse" time="11.517" displayname="FUNC_05_05" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_05(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_06" classname="TestSuite.RegisterCourse" time="41.628" displayname="FUNC_05_06" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_06(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterEmail-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterEmail-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_06(RegisterCourse.java:80)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_07" classname="TestSuite.RegisterCourse" time="11.625" displayname="FUNC_05_07" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_07(TestSuite.RegisterCourse)]">
+      <failure>
+        <expected>Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_07(RegisterCourse.java:86)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_05_08" classname="TestSuite.RegisterCourse" time="11.509" displayname="FUNC_05_08" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_08(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_09" classname="TestSuite.RegisterCourse" time="41.46" displayname="FUNC_05_09" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_09(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterName-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterName-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_09(RegisterCourse.java:98)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_10" classname="TestSuite.RegisterCourse" time="11.611" displayname="FUNC_05_10" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_10(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_11" classname="TestSuite.RegisterCourse" time="11.522" displayname="FUNC_05_11" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_11(TestSuite.RegisterCourse)]">
+      <failure>
+        <expected>Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin</expected>
+        <actual/>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin&gt; but was: &lt;&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_11(RegisterCourse.java:110)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_05_12" classname="TestSuite.RegisterCourse" time="41.62" displayname="FUNC_05_12" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_12(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterName-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterName-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_12(RegisterCourse.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_13" classname="TestSuite.RegisterCourse" time="41.557" displayname="FUNC_05_13" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_13(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterName-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterName-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_13(RegisterCourse.java:122)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_14" classname="TestSuite.RegisterCourse" time="11.676" displayname="FUNC_05_14" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_14(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_15" classname="TestSuite.RegisterCourse" time="41.418" displayname="FUNC_05_15" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_15(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_15(RegisterCourse.java:134)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_16" classname="TestSuite.RegisterCourse" time="41.499" displayname="FUNC_05_16" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_16(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_16(RegisterCourse.java:140)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_17" classname="TestSuite.RegisterCourse" time="11.52" displayname="FUNC_05_17" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_17(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_18" classname="TestSuite.RegisterCourse" time="11.358" displayname="FUNC_05_18" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_18(TestSuite.RegisterCourse)]">
+      <failure>
+        <expected>Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin</expected>
+        <actual>Đăng kí thất bại, vui lòng thử lại</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Đăng kí thành công, bạn vui lòng check mail để kiểm tra thông tin&gt; but was: &lt;Đăng kí thất bại, vui lòng thử lại&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_18(RegisterCourse.java:152)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_05_19" classname="TestSuite.RegisterCourse" time="41.497" displayname="FUNC_05_19" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_19(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_19(RegisterCourse.java:158)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_20" classname="TestSuite.RegisterCourse" time="41.555" displayname="FUNC_05_20" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_20(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_20(RegisterCourse.java:164)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_21" classname="TestSuite.RegisterCourse" time="42.48" displayname="FUNC_05_21" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_21(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_21(RegisterCourse.java:170)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_22" classname="TestSuite.RegisterCourse" time="41.593" displayname="FUNC_05_22" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_22(TestSuite.RegisterCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='formRegisterPhone-error']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 51ef02b8a66194196f888a8bcdd99b3d
+*** Element info: {Using=xpath, value=//*[@id='formRegisterPhone-error']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_RegisterCourse.registerCourse(Interface_RegisterCourse.java:37)
+	at TestSuite.RegisterCourse.FUNC_05_22(RegisterCourse.java:176)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_05_23" classname="TestSuite.RegisterCourse" time="11.475" displayname="FUNC_05_23" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_23(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_24" classname="TestSuite.RegisterCourse" time="11.344" displayname="FUNC_05_24" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_24(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_25" classname="TestSuite.RegisterCourse" time="0.0" ignored="true" displayname="FUNC_05_25" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_25(TestSuite.RegisterCourse)]"/>
+    <testcase name="FUNC_05_26" classname="TestSuite.RegisterCourse" time="11.471" displayname="FUNC_05_26" uniqueid="[engine:junit-vintage]/[runner:TestSuite.RegisterCourse]/[test:FUNC_05_26(TestSuite.RegisterCourse)]"/>
+  </testsuite>
+</testrun>

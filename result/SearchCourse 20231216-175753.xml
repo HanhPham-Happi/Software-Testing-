@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SearchCourse" project="AutoTestForColorMe" tests="10" started="10" failures="1" errors="1" ignored="0">
+  <testsuite name="TestSuite.SearchCourse" time="76.918" displayname="SearchCourse" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]">
+    <testcase name="FUNC_03_01" classname="TestSuite.SearchCourse" time="2.825" displayname="FUNC_03_01" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_01(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_02" classname="TestSuite.SearchCourse" time="3.468" displayname="FUNC_03_02" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_02(TestSuite.SearchCourse)]">
+      <failure>
+        <expected>Từ khóa tìm kiếm phải &gt; 4 ký tự</expected>
+        <actual>Có lỗi xảy ra, không thể lấy thông tin người dùng</actual>
+        org.opentest4j.AssertionFailedError: expected: &lt;Từ khóa tìm kiếm phải &gt; 4 ký tự&gt; but was: &lt;Có lỗi xảy ra, không thể lấy thông tin người dùng&gt;
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:87)
+	at Interface.Interface_Search.searchCourse(Interface_Search.java:25)
+	at TestSuite.SearchCourse.FUNC_03_02(SearchCourse.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+
+      </failure>
+    </testcase>
+    <testcase name="FUNC_03_03" classname="TestSuite.SearchCourse" time="33.578" displayname="FUNC_03_03" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_03(TestSuite.SearchCourse)]">
+      <error>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='toast-message']"}
+  (Session info: chrome=118.0.5993.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'anhhn-HP-EliteBook-8470p', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '6.2.0-39-generic', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.88, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:45799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 279a1b71e05bebf90c7d0744c45ce5c4
+*** Element info: {Using=xpath, value=//div[@class='toast-message']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at Common.CommonFunction.assertTextValue(CommonFunction.java:85)
+	at Interface.Interface_Search.searchCourse(Interface_Search.java:25)
+	at TestSuite.SearchCourse.FUNC_03_03(SearchCourse.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+
+</error>
+    </testcase>
+    <testcase name="FUNC_03_04" classname="TestSuite.SearchCourse" time="5.811" displayname="FUNC_03_04" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_04(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_05" classname="TestSuite.SearchCourse" time="5.607" displayname="FUNC_03_05" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_05(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_06" classname="TestSuite.SearchCourse" time="5.642" displayname="FUNC_03_06" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_06(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_07" classname="TestSuite.SearchCourse" time="5.711" displayname="FUNC_03_07" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_07(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_08" classname="TestSuite.SearchCourse" time="5.543" displayname="FUNC_03_08" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_08(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_09" classname="TestSuite.SearchCourse" time="5.61" displayname="FUNC_03_09" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_09(TestSuite.SearchCourse)]"/>
+    <testcase name="FUNC_03_10" classname="TestSuite.SearchCourse" time="3.123" displayname="FUNC_03_10" uniqueid="[engine:junit-vintage]/[runner:TestSuite.SearchCourse]/[test:FUNC_03_10(TestSuite.SearchCourse)]"/>
+  </testsuite>
+</testrun>
